@@ -1,0 +1,41 @@
+STEP translation to Solid Edge
+Date: Friday,April 08,2022 07:46PM
+Source File: H:\3D Files\Project 3D Models\Breakfast Maker 2000\Power Supplys\24V15A power supply.stp
+Author: Coy
+Organization: Unknown
+Source System: Autodesk Inventor 2022
+
+Hardware:
+Processor: AMD Ryzen 5 3600 6-Core Processor              
+Operating System: Windows 10
+Installed Memory: 15.92 GB
+
+Software Information
+Parasolid Version: 32.1.222
+PSBodyShop Version: 32.1.94
+Step Adapter Version: 5.0.107
+Solid Edge Version: 221.00.03.003 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: H:\3D Files\Project 3D Models\Breakfast Maker 2000\Power Supplys
+Import Enable Default Output Path: On
+Import PMI: Off
+Import As Internal Components: Off
+Import Path: 
+
+Translating to Parasolid data types...
+Translation process completed
+Total time required to translate and post process:00 : 00 : 00
