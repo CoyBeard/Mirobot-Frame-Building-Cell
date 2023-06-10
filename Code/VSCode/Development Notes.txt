@@ -1,0 +1,101 @@
+280 W
+260 H
+
+20mm parts 
+
+12x12 grid 
+
+
+535w w
+
+532 h
+
+
+280mm	505px width	BuildSpaceXMM	BuildSpaceXPX
+275mm	492px height	BuildSpaceYMM	BuildSpaceYPX
+
+
+Inputs:
+
+Buttons:
+
+- New Stick (button) *1
+- Generate GCode
+- Generate Stick Feed Order
+
+Common:
+- Glue Set Time (sec)
+- Pickup Position (X, Y, Z, A, B, C)
+- Material Width
+- Frame Drop Off Position (X, Y)
+- Frame Lower Speed (un)
+- Arm Movement Speed (un)
+- Set Program Name (string)
+
+Advanced:
+- Rest Position (J1, J2, J3, J4, J5, J6)
+- Pickup offset (mm)
+- Build Platform Tilt (deg)
+- Min and Max Material Width (mm, mm)
+- Build Platform Width (mm)
+- Build Platform Height (mm)
+- Frame Lower Speed (un)
+
+*1 New Stick Button Pop Up Menu
+- Show Graphical Dimention Example (img)
+- Stick Name (str)
+- Length (mm)
+- Horizontal/Vertical (select)
+- Pos X (mm)
+- Pos Y (mm)
+- Delete
+
+"Stick 0", "Length (MM)", "Orentation (H or V)", "X Position (MM)", "Y Position (MM)", "If Selected (0 or 1)", 0, 0, 0, "Order ID Number (1-20)"
+
+
+Need to Know 
+- x, y, z, a, b, c of build platform zero position
+- x, y, z, a, b, c of build platform max position
+- x, y, z, a, b, c of stick pickup zero postion
+
+
+Program Order of events:
+
+- Home 
+- Set Feedrate 
+- Move above stick
+- Activate suction cups
+- Plunge to grab stick
+- Move to universal position (position in center of canvs far enough away so any stick wont hit anything, midpoint for far travel)
+- Check for glue spots (*1)
+
+
+(*1) 
+Check if stick comes is contact with previously placed sticks == true
+	work through one couple of sticks at a time in placing order EX:(Stick4 to Stick1),(Stick4 to Stick2),(Stick4 to Stick3)
+		#Create x and y range of values for the compairing stick
+		if StickOrentation = "H"
+			CompairingStickXValues = range(Stick1XPos, Stick1XPos + Stick1Length + 1)#(0, 200 + 1) + 1 because range doesent count ending number
+			CompairingStickYValues = range(Stick1YPos, Stick1YPos + MaterialWidth + 1)#(0, 19 + 1)
+		if StickOrentation = "V"
+			CompairingStickXValues = range(Stick1XPos, Stick1XPos + MaterialWidth + 1)#(0, 19 + 1) 
+			CompairingStickYValues = range(Stick1YPos, Stick1YPos + Stick1Length + 1)#(0, 200 + 1)
+		
+		#Create x and y range of values for the in hand stick
+		if StickOrentation = "H"
+			InHandStickXValues = range(Stick1XPos, Stick1XPos + Stick1Length + 1)#(0, 200 + 1)
+			InHandStickYValues = range(Stick1YPos, Stick1YPos + MaterialWidth + 1)#(0, 19 + 1)
+		if StickOrentation = "V"
+			InHandStickXValues = range(Stick1XPos, Stick1XPos + MaterialWidth + 1)#(0, 19 + 1) 
+			InHandStickYValues = range(Stick1YPos, Stick1YPos + Stick1Length + 1)#(0, 200 + 1)
+		
+		#Create a list of common X values
+		CommonXs = common_member(InHandStickXValues , CompairingStickXValues)
+		CommonYs = common_member(InHandStickYValues , CompairingStickYValues)
+
+		
+	else:
+
+
+
+
