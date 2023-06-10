@@ -1,0 +1,40 @@
+1x  Black  X Axis Belt Tentoner Base MIRRORED                  SLICED
+1x  Black  X Axis Belt Tentoner Base                           SLICED
+1x  Black  X Axis Belt Tentoner NON ADJUSTABLE Base MIRRORED   SLICED
+1x  Black  X Axis Belt Tentoner NON ADJUSTABLE Base            SLICED
+1x  Black  X Axis Drag Chain Mount Moble                       SLICED
+1x  Black  X Axis Drag Chain Mount Statonary Bolted            SLICED
+1x  Black  X Axis Limit Switch Bracket                         SLICED
+1x  Black  X Axis Pully Support                                SLICED
+1x  Black  Y Axis Belt Adjustable and Plate Spacer             SLICED
+1x  Black  Y Axis Belt Adjustable Grip Plate                   SLICED
+1x  Black  Y Axis Belt Adjustable Top                          SLICED
+1x  Black  Y Axis Belt Stationary and Plate Spacer             SLICED
+1x  Black  Y Axis Belt Stationary Top                          SLICED
+1x  Black  Y Axis Drag Chain Mount Bolted                      SLICED
+1x  Black  Y Axis Drag Chain Mount Stationary                  SLICED
+1x  Black  Y Axis Limit Switch and Drag Chain Mount            SLICED
+1x  Black  Y Axis Limit Switch Mount                           SLICED
+1x  Black  Y Axis Limit Switch Trigger                         SLICED
+1x  Grey   Z Axis Housing Frame Top Frunt                      SLICED
+1x  Black  Z Axis Limt Adjustable Trigger                      SLICED
+1x  Grey   Z Axis Cover Top Logo                               SLICED
+1x  Grey   Z Axis Cover Bottom                                 SLICED
+1x  Black  Z Axis Cover Frame Bottom                           SLICED
+1x  Black  0.5in Flanged Pillowblock Frame                     SLICED 
+1x  Blue   JR Logo Text                                        SLICED
+2x  Black  X Axis Belt Adjustable Grip Plate                   SLICED
+2x  Black  X Axis Belt Adjustable Top                          SLICED
+2x  Black  X Axis Belt and V Wheel Plate Spacer                SLICED
+2x  Black  X Axis Belt Tentoner NON ADJUSTABLE Top             SLICED
+2x  Black  X Axis Drag Chain Support Mount                     SLICED
+3x  Black  Z Axis Cover Frame                                  SLICED
+3x  Grey   Z Axis Cover                                        SLICED
+6x  Black  8mm ID 15mm Deep Idler Pully                        SLICED
+8x  Black  Idler Pully Spacer                                  SLICED
+16x Black  V Wheel Spacer                                      SLICED
+
+
+
+
+
