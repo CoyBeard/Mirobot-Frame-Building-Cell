@@ -1,0 +1,17 @@
+ 268  M5x8 Pan Head Bolt
+ 20   M5 6mm Deep Thread Insert
+ 318  M5 T-nut
+ 204  M5 Nut
+ 12   M5x40 Bolt 
+ 60   M3x8 Socket Head
+ 16   M3x12 Pan Head
+ 46   M5x12 Socket Head
+ 2    M5x16 Socket Head
+ 4    M4x16 Pan Head
+ 12   M5x12 Pan Head
+ 3    M5x16 Pan Head
+ 24   M5x20 Pan Head
+
+ 8    1/4 20x 0.75in Socket Head
+
+ M5 Tap
