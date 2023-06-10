@@ -1,0 +1,41 @@
+STEP translation to Solid Edge
+Date: Sunday,November 21,2021 09:43PM
+Source File: J:\4in x 6in Steel Rectangular Tubing 4in long Machined.stp
+Author: Coy
+Organization: Unknown
+Source System: Autodesk Inventor 2022
+
+Hardware:
+Processor: AMD Ryzen 5 3600 6-Core Processor              
+Operating System: Windows 10
+Installed Memory: 15.92 GB
+
+Software Information
+Parasolid Version: 32.1.222
+PSBodyShop Version: 32.1.94
+Step Adapter Version: 5.0.107
+Solid Edge Version: 221.00.03.003 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: J:
+Import Enable Default Output Path: On
+Import PMI: Off
+Import As Internal Components: Off
+Import Path: 
+
+Translating to Parasolid data types...
+Translation process completed
+Total time required to translate and post process:00 : 00 : 00
